@@ -1,0 +1,11 @@
+create table user  (
+  username varchar(16)not null primary key,
+  passwd char(40) not null
+  );
+
+create table quotes (
+id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+username varchar(16) not null,
+quote TEXT NOT NULL,
+primary key(id)
+);
